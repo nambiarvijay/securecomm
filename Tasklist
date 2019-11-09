@@ -1,0 +1,47 @@
+implement sha256
+socket programming for communication 
+file disassembly and reassembly
+
+client authentication - using username password? 
+session key set using DH key exchange? 
+
+file encryption decryption
+
+MULTITHREADING REQUIRED
+CLIENT should be able to upload files to the server
+
+Folder structure
+- server
+- client
+
+rsa public key - configuration
+
+confidentiality = how to use a keyed hash algorithm for securing communication
+we can use a library to authenticate the server.
+
+2 programs
+1 server
+- dedicated port
+- server accepts files and stores - /clientname/file1
+    
+    2 operations - upload a file / download a file 
+    upload a file 
+    name of file 
+
+client is run in two modes - ./CLIENT download filename 
+
+server has a public key. decrypt first request with its own private key. 
+
+server.config
+application.config
+- server public key
+- port range
+
+1 client - support for all types of files needs to be tested
+
+rsa public keys  with usernames
+
+support for multiple clients at the same time. 
+what one client uploads , can only those files be downloaded or all files can?
+
+What do we use for encryption?
